@@ -51,7 +51,7 @@ web/xmlrpc.php
 # available through Wpackagist (which mirrors WordPress.org), like projects
 # that pull from Packagist or custom GitHub repositories.
 /vendor
-
+node_modules/
 # Any local WP-CLI rules should not be version controlled.
 wp-cli.local.yml
 
