@@ -147,6 +147,10 @@ if ( file_exists( $env_config ) ) {
 
 Config::apply();
 
+// Allow requests from Neocities front-end.
+header( 'Access-Control-Allow-Origin: *' );
+header( 'Access-Control-Allow-Methods: GET, POST, OPTIONS' );
+
 /**
  * Bootstrap WordPress
  */
