@@ -24,7 +24,7 @@ web/.htaccess
 # explicitly.
 web/license.txt
 web/readme.html
-web/index.php
+!web/index.php
 web/wp-*
 !web/wp-cli.yml
 !web/wp-config.php
